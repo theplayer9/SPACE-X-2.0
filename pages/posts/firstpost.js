@@ -8,13 +8,13 @@ export default function firstpost() {
       <Head>
         <title> heading</title>
       </Head>
-      <Script
+      {/* <Script
         src="https://connect.facebook.net/en_US/sdk.js"
         strategy="lazyOnload"
         onLoad={() =>
           console.log(`script loaded correctly, window.FB has been populated`)
         }
-      />
+      /> */}
       <h1> This is my first code in Next.js</h1>
       <h2>
         {" "}
